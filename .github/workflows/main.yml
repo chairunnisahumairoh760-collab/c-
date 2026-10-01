@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build C++
-        run: g++ c-/nama.cpp -o nama.exe
+        run: g++ nama.cpp -o nama.exe
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
